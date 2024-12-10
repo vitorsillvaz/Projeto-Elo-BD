@@ -1,0 +1,11 @@
+create database loja;
+use loja;
+
+create table cadastrarProduto(
+   id int auto_increment not null primary key,
+   nome text,
+   marca text,
+   preco text,
+   validade text
+);
+select *from cadastrarProduto;
